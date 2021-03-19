@@ -7,12 +7,18 @@ header{
     width:100%;
     display:flex;
     top:0;
+    color:#141414;
     height:60px;
     justify-content:space-between;
     font-family:public sans;
     border-bottom:1px solid #DFE9DF;
     background-color:#E9F1E9;
     left:0;
+}
+header a{
+    color:#141414;
+    text-decoration:none;
+
 }
 header img{
     max-height:40px;
@@ -47,6 +53,7 @@ header img{
     margin-left:80px;
     width:100%;
     margin-top:80px;
+    color:#141414;
 }
 #aboutme{
 }
@@ -83,27 +90,31 @@ header img{
     max-height:250px;
 }
 
-.firstrow{
-    margin-top:70px;
-}
 .work{
     display:flex;
     width:90%;
+    color:#141414;
     margin-left:80px;
 }
 .N2{margin-left:160px;
 }
 .talmbout{
-    margin-top:5px;
+    margin-top:20px;
     font-family:public sans;
     line-height:25px;
+    width:75%;
 }
+.title{margin-left:80px;
+    color:#141414;
+    margin-top:80px;}
 .smallhead{
     font-weight:600;
     font-size:18px;
 }
 .smallinfo{
     font-size:14px;
+    margin-top:10px;
+    font-weight:300;
 }
 #entro{
     line-height:10px;
@@ -112,9 +123,10 @@ header img{
     font-weight:200;
 }
 
-.secondrow{margin-top:50px;}
+.secondrow{margin-top:120px;}
 
 #background{
+    color:#141414;
     margin-left:80px;
     margin-top:80px;
 }
@@ -132,3 +144,20 @@ p{
 .bodyodyody{
     margin-top:-15px;
 }
+footer{
+    font-family: 'Space Mono', monospace;
+    font-style:italic;
+    color:#141414;
+    font-weight:300;
+    text-decoration:underline;
+    margin-top:60px;
+    
+    margin-left:80px;
+}
+.footnav{
+    font-size:68px;
+    padding-top:120px;
+}
+.smaller{font-size:55px;
+    padding-top:120px;
+padding-bottom:120px;}
