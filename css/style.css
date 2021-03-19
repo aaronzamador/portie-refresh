@@ -1,0 +1,134 @@
+body{
+    background-color:#E9F1E9;}
+
+
+header{
+    position:fixed;
+    width:100%;
+    display:flex;
+    top:0;
+    height:60px;
+    justify-content:space-between;
+    font-family:public sans;
+    border-bottom:1px solid #DFE9DF;
+    background-color:#E9F1E9;
+    left:0;
+}
+header img{
+    max-height:40px;
+    margin-top:2px;
+    padding-right:10px;
+}
+#topleft{
+    display:flex;
+    width:75%;
+    margin-top:10px;
+    padding-bottom:5px;
+    padding-left:20px;
+}
+#navigation{
+    margin:20px;
+    margin-top:25px;
+    display:flex;
+    width:25%;
+    padding-right:10px;
+    font-size:14px;
+    justify-content:space-between;
+}
+.navy{
+    padding-left:5px;
+}
+
+#picofme img{
+    max-height:150px;
+    margin-right:35px;}
+#hole{
+    display:flex;
+    margin-left:80px;
+    width:100%;
+    margin-top:80px;
+}
+#aboutme{
+}
+#entro h1{
+    font-size:14px;
+    font-weight:600;
+}
+#intro2{
+    display:flex;
+    padding-bottom:10px;
+    margin-left:5px;
+}
+
+#intro2 h2{
+    font-family: 'Space Mono', monospace;
+    font-style:italic;
+    font-weight:600;
+    font-size:55px;
+}
+#intro2 h3{
+    font-family:public sans;
+    font-size:55px;
+    padding-left:10px;}
+
+#info{
+    font-family:public sans;
+    font-size:55px;
+    line-height:60px;
+    font-weight:200;
+    width:50%;
+    margin-top:-65px;
+}
+.smallview img{
+    max-height:250px;
+}
+
+.firstrow{
+    margin-top:70px;
+}
+.work{
+    display:flex;
+    width:90%;
+    margin-left:80px;
+}
+.N2{margin-left:160px;
+}
+.talmbout{
+    margin-top:5px;
+    font-family:public sans;
+    line-height:25px;
+}
+.smallhead{
+    font-weight:600;
+    font-size:18px;
+}
+.smallinfo{
+    font-size:14px;
+}
+#entro{
+    line-height:10px;
+    margin-top:-2px;
+    font-size:12px;
+    font-weight:200;
+}
+
+.secondrow{margin-top:50px;}
+
+#background{
+    margin-left:80px;
+    margin-top:80px;
+}
+
+h4{
+    font-family:public sans;
+    font-weight:500;
+    font-size:16px;
+}
+p{
+    font-family:public sans;
+    font-size:14px;
+    font-weight:300;
+}
+.bodyodyody{
+    margin-top:-15px;
+}
