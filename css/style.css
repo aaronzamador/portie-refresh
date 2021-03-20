@@ -14,6 +14,7 @@ header{
     border-bottom:1px solid #DFE9DF;
     background-color:#E9F1E9;
     left:0;
+  margin-right:20px;
 }
 a{
     color:#141414;
@@ -23,14 +24,14 @@ a{
 header img{
     max-height:40px;
     margin-top:2px;
-    padding-right:10px;
+    padding-right:20px;
 }
 #topleft{
     display:flex;
     width:75%;
     margin-top:10px;
     padding-bottom:5px;
-    padding-left:20px;
+    padding-left:30px;
 }
 #navigation{
     margin:20px;
@@ -54,8 +55,6 @@ header img{
     width:100%;
     margin-top:80px;
     color:#141414;
-}
-#aboutme{
 }
 #entro h1{
     font-size:14px;
@@ -83,7 +82,7 @@ header img{
     font-size:55px;
     line-height:60px;
     font-weight:200;
-    width:50%;
+    width:60%;
     margin-top:-65px;
 }
 
@@ -136,26 +135,22 @@ footer{
     padding-top:120px;
 padding-bottom:240px;}
 
-.workpic img{
-    max-height:250px;
-}
 
 .work{
     margin-left:80px;
-    width:75%;
     color:#141414;
+    margin-right:80px;
     justify-content:space-between;
     display:flex;
     
 }
-.n2{
+.col2{
     margin-left:80px;
+    padding-right:80px;
 }
 .row2{
     margin-top:80px;
 }
-.proj{
-    width:100%;}
 
 .talmbout{
     margin-top:20px;
@@ -173,5 +168,443 @@ padding-bottom:240px;}
     font-weight:300;
 }
 .smallview img{
-    max-height:250px;
+    max-height:400px;
 }
+
+
+@media only screen and (max-width:1450px){
+    
+    .smallview img{
+        max-height:300px;
+    }
+
+}@media only screen and (max-width:1400px){
+    
+    .smallview img{
+        max-height:280px;
+    }
+
+}
+@media only screen and (max-width:1300px){
+    
+    .smallview img{
+        max-height:240px;
+    }
+    #info{
+        width:75%;
+    }
+    #navigation{
+        width:50%;
+    }
+
+}
+@media only screen and (max-width:1100px){
+    
+.smallview img{
+    max-height:200px;
+}
+
+    #info{
+        width:80%;
+    }
+
+}
+@media only screen and (max-width:950px){
+    
+.smallview img{
+    max-height:160px;
+}
+
+    #info{
+        width:80%;
+    }
+    #navigation{
+        width:75%;
+    }
+
+}
+@media only screen and (max-width:800px){
+    
+    #entro{
+        display:none;
+    }
+
+    footer{
+        font-family: 'Space Mono', monospace;
+        font-style:italic;
+        color:#141414;
+        font-weight:300;
+        text-decoration:underline;
+        margin-top:60px;
+        
+        margin-left:40px;
+    }
+    .footnav{
+        font-size:55px;
+        padding-top:120px;
+    }
+    .smaller{font-size:45px;
+        padding-top:120px;
+    padding-bottom:240px;}
+    
+
+#hole{
+    display:flex;
+    margin-left:40px;
+    width:90%;
+    margin-top:60px;
+    color:#141414;
+}
+#intro2{
+    display:flex;
+    padding-bottom:10px;
+    margin-left:5px;
+}
+
+#intro2 h2{
+    font-family: 'Space Mono', monospace;
+    font-style:italic;
+    font-weight:600;
+    font-size:35px;
+}
+#intro2 h3{
+    font-family:public sans;
+    font-size:35px;
+    padding-left:10px;}
+
+#info{
+    font-family:public sans;
+    font-size:35px;
+    line-height:40px;
+    font-weight:200;
+    width:70%;
+    margin-top:-40px;
+}
+
+#background{
+    margin-left:40px;
+    width:70%;
+}
+.title{
+    margin-left:40px;
+    color:#141414;
+    margin-top:80px;}
+h4{
+    font-family:public sans;
+    font-weight:500;
+    font-size:14px;
+}
+p{
+    font-family:public sans;
+    font-size:12px;
+    line-height:20px;
+}
+.bodyodyody{
+    margin-top:-15px;
+    font-weight:200;
+}
+.work{
+    display:grid;
+    margin-left:40px;
+    margin-top:40px;
+}
+.row2{
+    margin-top:80px;
+}
+.col2{
+    margin-left:-0px;
+    margin-top:80px;
+}
+.smallview img{
+    max-height:200px;
+}
+
+.talmbout{
+    margin-top:20px;
+    font-family:public sans;
+    line-height:20px;
+}
+.smallhead{
+    font-weight:600;
+    font-size:14px;
+}
+.smallinfo{
+    font-size:12px;
+    margin-top:10px;
+    font-weight:300;
+}
+}
+
+@media only screen and (max-width:550px){
+
+    footer{
+        font-family: 'Space Mono', monospace;
+        font-style:italic;
+        color:#141414;
+        font-weight:300;
+        text-decoration:underline;
+        margin-top:60px;
+        
+        margin-left:40px;
+    }
+    .footnav{
+        font-size:45px;
+        padding-top:120px;
+    }
+    .smaller{font-size:35px;
+        padding-top:120px;
+    padding-bottom:240px;}
+    
+}
+@media only screen and (max-width:450px){
+    
+    #entro{
+        display:none;
+    }
+    footer{
+        font-family: 'Space Mono', monospace;
+        font-style:italic;
+        color:#141414;
+        font-weight:300;
+        text-decoration:underline;
+        margin-top:60px;
+        
+        margin-left:40px;
+    }
+    .footnav{
+        font-size:35px;
+        padding-top:120px;
+    }
+    .smaller{font-size:25px;
+        padding-top:120px;
+    padding-bottom:240px;}
+    
+
+#hole{
+    display:flex;
+    margin-left:40px;
+    width:90%;
+    margin-top:80px;
+    color:#141414;
+}
+#intro2{
+    display:flex;
+    padding-bottom:10px;
+    margin-left:5px;
+}
+
+#intro2 h2{
+    font-family: 'Space Mono', monospace;
+    font-style:italic;
+    font-weight:600;
+    font-size:20px;
+}
+#intro2 h3{
+    font-family:public sans;
+    font-size:20px;
+    padding-left:10px;}
+
+#info{
+    font-family:public sans;
+    font-size:20px;
+    line-height:25px;
+    font-weight:200;
+    width:50%;
+    margin-top:-25px;
+}
+
+#background{
+    margin-left:40px;
+    width:90%;
+}
+.title{
+    margin-left:40px;
+    color:#141414;
+    margin-top:80px;}
+h4{
+    font-family:public sans;
+    font-weight:500;
+    font-size:12px;
+}
+p{
+    font-family:public sans;
+    font-size:10px;
+    line-height:20px;
+}
+.bodyodyody{
+    margin-top:-15px;
+    font-weight:200;
+}
+.smallview img{
+    max-height:150px;
+}
+
+.talmbout{
+    margin-top:15px;
+    font-family:public sans;
+    line-height:15px;
+    width:100%;
+}
+.smallhead{
+    font-weight:600;
+    font-size:12px;
+}
+.smallinfo{
+    font-size:10px;
+    margin-top:10px;
+    font-weight:300;
+}
+.work{
+    margin-left:40px;
+    color:#141414;
+    margin-right:80px;
+    justify-content:space-between;
+    display:grid;
+    
+}
+.col2{
+    margin-top:80px;
+    margin-left:0px;
+}
+.row2{
+    margin-top:80px;
+    margin-left:40px;
+}
+
+
+}
+@media only screen and (max-width:350px){
+    
+    #entro{
+        display:none;
+    }
+    footer{
+        font-family: 'Space Mono', monospace;
+        font-style:italic;
+        color:#141414;
+        font-weight:300;
+        text-decoration:underline;
+        margin-top:60px;
+        
+        margin-left:40px;
+    }
+    .footnav{
+        font-size:35px;
+        padding-top:60px;
+    }
+    .smaller{font-size:25px;
+        padding-top:40px;
+    padding-bottom:60px;}
+    
+
+#hole{
+    display:flex;
+    margin-left:40px;
+    width:90%;
+    margin-top:80px;
+    color:#141414;
+}
+#intro2{
+    display:flex;
+    padding-bottom:10px;
+    margin-left:5px;
+}
+
+#intro2 h2{
+    font-family: 'Space Mono', monospace;
+    font-style:italic;
+    font-weight:600;
+    font-size:20px;
+}
+#intro2 h3{
+    font-family:public sans;
+    font-size:20px;
+    padding-left:10px;}
+
+#info{
+    font-family:public sans;
+    font-size:20px;
+    line-height:25px;
+    font-weight:200;
+    width:50%;
+    margin-top:-25px;
+}
+
+#background{
+    margin-left:40px;
+    width:90%;
+}
+.title{
+    margin-left:40px;
+    color:#141414;
+    margin-top:80px;}
+h4{
+    font-family:public sans;
+    font-weight:500;
+    font-size:12px;
+}
+p{
+    font-family:public sans;
+    font-size:10px;
+    line-height:20px;
+}
+.bodyodyody{
+    margin-top:-15px;
+    font-weight:200;
+}
+.smallview img{
+    max-height:120px;
+}
+
+.talmbout{
+    margin-top:15px;
+    font-family:public sans;
+    line-height:15px;
+    width:100%;
+}
+.smallhead{
+    font-weight:600;
+    font-size:12px;
+}
+.smallinfo{
+    font-size:10px;
+    margin-top:10px;
+    width:100%;
+    font-weight:300;
+}
+.work{
+    margin-left:40px;
+    color:#141414;
+    margin-right:80px;
+    justify-content:space-between;
+    display:grid;
+    
+}
+.col2{
+    margin-top:80px;
+    margin-left:0px;
+}
+.row2{
+    margin-top:80px;
+    margin-left:40px;
+}
+
+footer{
+    font-family: 'Space Mono', monospace;
+    font-style:italic;
+    color:#141414;
+    font-weight:300;
+    text-decoration:underline;
+    margin-top:60px;
+    
+    margin-left:40px;
+}
+.footnav{
+    font-size:25px;
+    padding-top:80px;
+}
+.smaller{
+    font-size:25px;
+    padding-top:80px;
+padding-bottom:120px;
+}}
