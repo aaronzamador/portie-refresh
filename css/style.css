@@ -100,9 +100,11 @@ header img{
     margin-top:80px;
 }
 
-.title{margin-left:80px;
+.title{
+    margin-left:80px;
     color:#141414;
-    margin-top:80px;}
+    margin-top:80px;
+}
 h4{
     font-family:public sans;
     font-weight:500;
@@ -124,16 +126,17 @@ footer{
     font-weight:300;
     text-decoration:underline;
     margin-top:60px;
-    
     margin-left:80px;
 }
 .footnav{
     font-size:68px;
     padding-top:120px;
 }
-.smaller{font-size:55px;
+.smaller{
+    font-size:55px;
     padding-top:120px;
-padding-bottom:240px;}
+padding-bottom:240px;
+}
 
 
 .work{
@@ -207,6 +210,9 @@ padding-bottom:240px;}
     #info{
         width:80%;
     }
+    .bodyodyody{
+        width:85%;
+    }
 
 }
 @media only screen and (max-width:950px){
@@ -218,65 +224,45 @@ padding-bottom:240px;}
     #info{
         width:80%;
     }
-    #navigation{
-        width:75%;
-    }
 
 }
 @media only screen and (max-width:800px){
     
     #entro{
         display:none;
+        width:0%;
+    }
+    #topleft{
+        padding-left:50px;
+    }
+    #navigation{
+        width:100%;
     }
 
     footer{
-        font-family: 'Space Mono', monospace;
-        font-style:italic;
-        color:#141414;
-        font-weight:300;
-        text-decoration:underline;
-        margin-top:60px;
-        
         margin-left:40px;
     }
     .footnav{
         font-size:55px;
-        padding-top:120px;
     }
-    .smaller{font-size:45px;
-        padding-top:120px;
-    padding-bottom:240px;}
+    .smaller{font-size:45px;}
     
 
 #hole{
-    display:flex;
     margin-left:40px;
     width:90%;
     margin-top:60px;
-    color:#141414;
-}
-#intro2{
-    display:flex;
-    padding-bottom:10px;
-    margin-left:5px;
 }
 
 #intro2 h2{
-    font-family: 'Space Mono', monospace;
-    font-style:italic;
-    font-weight:600;
     font-size:35px;
 }
 #intro2 h3{
-    font-family:public sans;
-    font-size:35px;
-    padding-left:10px;}
+    font-size:35px;}
 
 #info{
-    font-family:public sans;
     font-size:35px;
     line-height:40px;
-    font-weight:200;
     width:70%;
     margin-top:-40px;
 }
@@ -286,22 +272,15 @@ padding-bottom:240px;}
     width:70%;
 }
 .title{
-    margin-left:40px;
-    color:#141414;
-    margin-top:80px;}
+    margin-left:40px;}
 h4{
-    font-family:public sans;
-    font-weight:500;
     font-size:14px;
 }
 p{
-    font-family:public sans;
     font-size:12px;
-    line-height:20px;
 }
 .bodyodyody{
-    margin-top:-15px;
-    font-weight:200;
+    width:90%;
 }
 .work{
     display:grid;
@@ -320,95 +299,57 @@ p{
 }
 
 .talmbout{
-    margin-top:20px;
-    font-family:public sans;
     line-height:20px;
 }
 .smallhead{
-    font-weight:600;
     font-size:14px;
 }
 .smallinfo{
     font-size:12px;
-    margin-top:10px;
-    font-weight:300;
 }
 }
 
 @media only screen and (max-width:550px){
 
     footer{
-        font-family: 'Space Mono', monospace;
-        font-style:italic;
-        color:#141414;
-        font-weight:300;
-        text-decoration:underline;
-        margin-top:60px;
-        
         margin-left:40px;
     }
     .footnav{
         font-size:45px;
-        padding-top:120px;
     }
-    .smaller{font-size:35px;
-        padding-top:120px;
-    padding-bottom:240px;}
+    .smaller{
+        font-size:35px;
+    }
     
 }
 @media only screen and (max-width:450px){
     
-    #entro{
-        display:none;
-    }
     footer{
-        font-family: 'Space Mono', monospace;
-        font-style:italic;
-        color:#141414;
-        font-weight:300;
-        text-decoration:underline;
-        margin-top:60px;
-        
         margin-left:40px;
     }
     .footnav{
         font-size:35px;
-        padding-top:120px;
     }
-    .smaller{font-size:25px;
-        padding-top:120px;
-    padding-bottom:240px;}
+    .smaller{
+        font-size:25px;
+}
     
 
 #hole{
-    display:flex;
     margin-left:40px;
     width:90%;
-    margin-top:80px;
-    color:#141414;
-}
-#intro2{
-    display:flex;
-    padding-bottom:10px;
-    margin-left:5px;
 }
 
 #intro2 h2{
-    font-family: 'Space Mono', monospace;
-    font-style:italic;
-    font-weight:600;
     font-size:20px;
 }
 #intro2 h3{
-    font-family:public sans;
     font-size:20px;
-    padding-left:10px;}
+}
 
 #info{
-    font-family:public sans;
     font-size:20px;
     line-height:25px;
-    font-weight:200;
     width:50%;
     margin-top:-25px;
 }
@@ -419,21 +360,12 @@ p{
 }
 .title{
     margin-left:40px;
-    color:#141414;
-    margin-top:80px;}
+}
 h4{
-    font-family:public sans;
-    font-weight:500;
     font-size:12px;
 }
 p{
-    font-family:public sans;
     font-size:10px;
-    line-height:20px;
-}
-.bodyodyody{
-    margin-top:-15px;
-    font-weight:200;
 }
 .smallview img{
     max-height:150px;
@@ -441,33 +373,24 @@ p{
 
 .talmbout{
     margin-top:15px;
-    font-family:public sans;
     line-height:15px;
     width:100%;
 }
 .smallhead{
-    font-weight:600;
     font-size:12px;
 }
 .smallinfo{
     font-size:10px;
-    margin-top:10px;
-    font-weight:300;
 }
 .work{
     margin-left:40px;
-    color:#141414;
-    margin-right:80px;
-    justify-content:space-between;
     display:grid;
     
 }
 .col2{
-    margin-top:80px;
     margin-left:0px;
 }
 .row2{
-    margin-top:80px;
     margin-left:40px;
 }
 
@@ -475,57 +398,34 @@ p{
 }
 @media only screen and (max-width:350px){
     
-    #entro{
-        display:none;
-    }
     footer{
-        font-family: 'Space Mono', monospace;
-        font-style:italic;
-        color:#141414;
-        font-weight:300;
-        text-decoration:underline;
-        margin-top:60px;
-        
         margin-left:40px;
     }
     .footnav{
         font-size:35px;
         padding-top:60px;
     }
-    .smaller{font-size:25px;
+    .smaller{
+        font-size:25px;
         padding-top:40px;
-    padding-bottom:60px;}
+    padding-bottom:60px;
+}
     
 
 #hole{
-    display:flex;
     margin-left:40px;
     width:90%;
-    margin-top:80px;
-    color:#141414;
-}
-#intro2{
-    display:flex;
-    padding-bottom:10px;
-    margin-left:5px;
 }
 
 #intro2 h2{
-    font-family: 'Space Mono', monospace;
-    font-style:italic;
-    font-weight:600;
     font-size:20px;
 }
 #intro2 h3{
-    font-family:public sans;
-    font-size:20px;
-    padding-left:10px;}
+    font-size:20px;}
 
 #info{
-    font-family:public sans;
     font-size:20px;
     line-height:25px;
-    font-weight:200;
     width:50%;
     margin-top:-25px;
 }
@@ -536,21 +436,12 @@ p{
 }
 .title{
     margin-left:40px;
-    color:#141414;
-    margin-top:80px;}
+}
 h4{
-    font-family:public sans;
-    font-weight:500;
     font-size:12px;
 }
 p{
-    font-family:public sans;
     font-size:10px;
-    line-height:20px;
-}
-.bodyodyody{
-    margin-top:-15px;
-    font-weight:200;
 }
 .smallview img{
     max-height:120px;
@@ -558,25 +449,18 @@ p{
 
 .talmbout{
     margin-top:15px;
-    font-family:public sans;
     line-height:15px;
     width:100%;
 }
 .smallhead{
-    font-weight:600;
     font-size:12px;
 }
 .smallinfo{
     font-size:10px;
-    margin-top:10px;
     width:100%;
-    font-weight:300;
 }
 .work{
     margin-left:40px;
-    color:#141414;
-    margin-right:80px;
-    justify-content:space-between;
     display:grid;
     
 }
@@ -585,18 +469,10 @@ p{
     margin-left:0px;
 }
 .row2{
-    margin-top:80px;
     margin-left:40px;
 }
 
 footer{
-    font-family: 'Space Mono', monospace;
-    font-style:italic;
-    color:#141414;
-    font-weight:300;
-    text-decoration:underline;
-    margin-top:60px;
-    
     margin-left:40px;
 }
 .footnav{
